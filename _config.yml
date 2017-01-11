@@ -3,7 +3,7 @@ title: Adriano S. Fonseca
 email: new.adriano.fonseca@gmail.com
 description: My name is Adriano da Silva Fonseca > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://adriano-fonseca.github.io" # the base hostname & protocol for your site
 
 twitter_username: adriano_fonseca
 github_username: adriano-fonseca
