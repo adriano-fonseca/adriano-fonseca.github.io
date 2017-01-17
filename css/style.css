@@ -34,7 +34,7 @@
 }
 
 .contact-media{
-	color: #928dab;
-	font-size: xx-large;
-	text-align: center;
+	a: #928dab !important;
+	font-size: x-large;
+	text-align: center !important;
 }
