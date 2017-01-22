@@ -26,9 +26,12 @@ h6 {
   font-family: 'Roboto', sans-serif;
 }
 
+
 .fa {
 	color: #2e3436;
 }
+
+
 h2 {
   font-size: 30px;
   font-weight: 400;
@@ -70,7 +73,7 @@ a:active {
 --*/
 header {
   background: #fff;
-  padding: 20px 0;
+  padding: 5px 0 15px;
 }
 header .navbar {
   margin-bottom: 0px;
@@ -365,8 +368,8 @@ font header .navbar-default .navbar-nav li a:hover {
 #section-header {
   background: url("../img/slider_bg_blog.jpg") no-repeat;
   background-size: cover;
-  padding-top: 50px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   position: relative;
   background-attachment: fixed;
 }
@@ -707,8 +710,8 @@ font header .navbar-default .navbar-nav li a:hover {
 	contact-form Start
 --*/
 #contact-form {
-  padding-top: 70px;
-  padding-bottom: 35px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 #contact-form .block form .form-group {
   padding-bottom: 15px;
