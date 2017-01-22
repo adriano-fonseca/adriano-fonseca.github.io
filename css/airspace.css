@@ -142,7 +142,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	wrapper Start
 --*/
 #intro {
-  padding: 100px 0;
+  padding: 0px 0;
 }
 #intro .block h2 {
   padding-top: 35px;
@@ -386,7 +386,6 @@ font header .navbar-default .navbar-nav li a:hover {
 #section-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
   text-align: center;
 }
 #section-header .block h1 {
@@ -436,7 +435,6 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
   text-align: center;
 }
 #global-header .block h1 {
