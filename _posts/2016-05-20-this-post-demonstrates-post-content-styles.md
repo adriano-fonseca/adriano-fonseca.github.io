@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "This post demonstrates post content styles"
+category: Dev
+tags: [example, markdown]
 author: "Bart Simpson"
 meta: "Springfield"
 ---

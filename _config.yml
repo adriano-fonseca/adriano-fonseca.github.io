@@ -24,17 +24,30 @@ twitter_username: adriano_fonseca
 github_username: adriano-fonseca
 linkedin_username: adriano-s-fonseca-18b975b2
 
+# Where are tags and categories displayed
+tag_page: '/blog/tag/'
+category_page: '/blog/category/'
+
+
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
-url: "localhost" # the base hostname & protocol for your site
+url: "https://adriano-fonseca.github.io/" # the base hostname & protocol for your site
 baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
-# Build settings
+# Site configurations
+gems: 
+  - jekyll-paginate
 markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
