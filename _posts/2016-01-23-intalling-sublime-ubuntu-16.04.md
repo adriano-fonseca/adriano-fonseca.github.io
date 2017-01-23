@@ -13,7 +13,7 @@ Adding repository:
 sudo add-apt-repository -y ppa:webupd8team/sublime-text-2
 {% endhighlight %}
 
-Havving the repository run:
+Having the repository run:
 
 {% highlight shell %}
 sudo apt-get update
