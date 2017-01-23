@@ -17,5 +17,5 @@ Havving the repository run:
 
 {% highlight shell %}
 sudo apt-get update
-sudo add-apt install sublime-text
+sudo apt-get install sublime-text
 {% endhighlight %}
