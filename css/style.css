@@ -32,3 +32,9 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+.contact-media{
+	a: #928dab !important;
+	font-size: x-large;
+	text-align: center !important;
+}
