@@ -6,6 +6,8 @@ exclude:
   - "README.md"
   - "LICENSE.md"
   - "*.gemspec"
+  - /old_posts
+  - /working 
 
 keep_files:
   - "CNAME"
@@ -59,3 +61,4 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
+    
