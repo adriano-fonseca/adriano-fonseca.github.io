@@ -3,7 +3,7 @@ layout: post
 title: Intalling Sublime on Ubuntu 16.04
 category: Ubuntu
 tags: [Sublime, Instalations, Ubuntu]
-date: 2016-05-20 21:11:27
+date: 2017-01-29 13:11:27
 ---
 
 Really straightforward way to install Sublime. First we need to add the repository:
