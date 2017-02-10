@@ -15,3 +15,4 @@ In these videos I show how can you generate the credentials to use Docker Machin
 ## Digital Ocean 
 
 {% youtube "https://www.youtube.com/watch?v=uJHOXiXLJKA" %}
+
