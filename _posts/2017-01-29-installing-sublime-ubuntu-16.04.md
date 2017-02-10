@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intalling Sublime on Ubuntu 16.04
+title: Installing Sublime on Ubuntu 16.04
 category: Ubuntu
 tags: [Sublime, Instalations, Ubuntu]
 date: 2017-01-29 13:11:27
