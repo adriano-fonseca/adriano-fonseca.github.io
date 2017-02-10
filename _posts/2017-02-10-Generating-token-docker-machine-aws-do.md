@@ -6,7 +6,7 @@ tags: [AWS, Digital Ocean, Amazon, Docker]
 date: 2017-02-10 10:00:00
 ---
 
-In these videos I show how can you generate the credentials to use Docker Machine to provision virtual hosts in the Amazon and Digital Ocean Cloud Providers.
+In these videos I show how can you generate the credentials to use Docker Machine to provision virtual hosts on providers Amazon and Digital Ocean.
 
 ## Amazon Web Service (AWS)
 
