@@ -3,13 +3,14 @@ layout: post
 title: Auth0 Secure Authentication In With Angular through JWT
 category: [Development, Javascript, NodeJS]
 tags: [NodeJS, Angular, Javascript, OAuth, JWT]
-date: 2016-05-20 21:11:27
-author: jekyll
+date: 2017-01-23 19:48:27
 ---
 
 # The Plan
 
-The plan it is to develop and sample authentication app, using angular, oath and jwt. Our backend will be a nodeJs. The ideia here it is create to separate project for front end and beckend.   
+The plan it is to develop and sample authentication app, using angular, oath and jwt. Our backend will be a nodeJs. The idea here it is create to separate project for frontend and backend.
+
+In order to run this project with me we will need to have nodeJs and NPM, installed. I will not approach the installation. You can see how to install node [here].    
 
 
 # Creating and configuring our Auth0 application
@@ -25,9 +26,7 @@ Configure what social login your application will accept. You can you the same e
 
 # Configuring FrontEnd
 
-If you don't have npm installed. [Here] I have a post where I am making it on Ubuntu.
 
-  
 Init your javascript project
 {% highlight shell %}
 npm init
@@ -35,7 +34,7 @@ npm init
 
 Installing Javascript dependencies. 
 {% highlight shell %}
-npm install angular angular-material angular-aria angular-messages angular-animate angular-ui-router angular-jwt angular-storage auth0-angular
+npm install angular angular-material angular-aria angular-messages angular-animate angular-ui-router angular-lock angular-jwt angular-storage auth0-angular
 {% endhighlight %}
 
 To run our test we will need to have a http-server installed, if you don't have it, you can do that using the npm command to install it.
@@ -69,8 +68,6 @@ if(true){
 
 # Configuring BackEnd
 
-If you don't have npm installed. [Here] I have a post where I am making it on Ubuntu.
-
 {% highlight shell %}
 npm install express express-jwt cors
 {% endhighlight %}
@@ -83,6 +80,35 @@ if(true){
 {% endhighlight %}
 
 
+# Configuring authentication
 
+We will use Lock widget that Auth0 provides to us, that we have already imported in our index.html and in our app configuration as follows:
+
+{% highlight html %}
+<script type="text/javascript" src="https://cdn.auth0.com/js/lock/10.8/lock.min.js"></script>
+{% endhighlight %}   
+
+Using that we will have this login box for free. All the we need to do is passing some configurations to authProvider that we have already imported in our App, as follows:
+
+{% highlight javascript %}
+angular
+	.module('app', ['auth0', 'angular-storage','angular-jwt','ngMaterial','ui.router'])
+	.config(function($provide, authProvider, $urlRouterProvider, $stateProvider, $httpProvider, jwtInterceptorProvider)
+{% endhighlight %}
+
+In the file app.js in our frontend project we need to init our authProvider adding the follow code:
+
+{% highlight javascript %}
+	authProvider.init({
+			domain: 'adriano-fonseca.auth0.com',
+			clientID: 'dfBT1qpRBvlmDDInHttYBsotMY8AteDT'
+	});
+{% endhighlight %}
+
+#consuming RestAPI on Java Application
+
+npm install node-rest-client
+
+   
 [Auth0 site]:http://auth0.com/angular
-[Here]:http://adriano-fonseca.github.io
+[Here]:http://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/#
