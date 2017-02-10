@@ -10,13 +10,25 @@ In these videos I show how can you generate the credentials to use Docker Machin
 
 ## Amazon Web Service (AWS)
 
-{% youtube L2enCa92hzM %}
+<div class="video">
+    <figure>
+        <iframe width="640" height="480" src="//www.youtube.com/embed/L2enCa92hzM" frameborder="0" allowfullscreen></iframe>
+    </figure>
+</div>
+
+
 
 ## Digital Ocean 
 
-{% youtube uJHOXiXLJKA%}
+<div class="video">
+    <figure>
+        <iframe width="640" height="480" src="//www.youtube.com/embed/uJHOXiXLJKA" frameborder="0" allowfullscreen></iframe>
+    </figure>
+</div>
 
 
-<!-- working with Playlists 
+
+<!-- working with Playlists dont work on gitpages
+{% youtube uJHOXiXLJKA %}
 {% youtube uJHOXiXLJKA?list=PLZUnFhiuLZRh4wz_dVt25mHH3Gd1ksGay %}
 -->
