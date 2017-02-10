@@ -6,6 +6,8 @@ exclude:
   - "README.md"
   - "LICENSE.md"
   - "*.gemspec"
+  - /old_posts
+  - /working 
 
 keep_files:
   - "CNAME"
@@ -41,6 +43,8 @@ logo: "/assets/logo.png"
 # Site configurations
 gems: 
   - jekyll-paginate
+  - jekyll-youtube
+
 markdown: kramdown
 kramdown:
   input: GFM
