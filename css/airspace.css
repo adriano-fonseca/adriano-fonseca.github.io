@@ -358,11 +358,11 @@ font header .navbar-default .navbar-nav li a:hover {
 	features Start
 --*/
 #clients-logo-section {
-  padding-top: 30px;
+  padding-top: 75px;
   padding-bottom: 75px;
 }
 #clients-logo-section .clients-logo-img {
-  padding: 0px 50px;
+  padding: 0px 15px;
 }
 /*---------------------------------------------
 					Sections work Start
