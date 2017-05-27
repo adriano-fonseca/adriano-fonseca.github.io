@@ -34,7 +34,6 @@ $(document).ready(function(){
     });
 
     var sns = new AWS.SNS();
-  	console.log('sending push');
 		sns.publish({
 			Message: msg,
 			TopicArn: 'arn:aws:sns:sa-east-1:128489220762:allumy_contato',
@@ -43,9 +42,6 @@ $(document).ready(function(){
 					console.log(err.stack);
 					return;
 				}
-
-				console.log('push sent');
-				console.log(data);
 		});
 
 	});
