@@ -23,6 +23,35 @@ $(document).ready(function(){
 	  }
 	});
 
+	$('#sendEmail').click(function() {
+
+		var msg = 'Name: ' + $('#yourName').val() + ' \n Email: ' + $('#emailAddress').val() + ' \n Subject: ' + $('#subject').val() + ' \n Message: ' + $('#yourMessage').val();
+		
+		AWS.config.update({
+      accessKeyId: 'AKIAJNHLSZBWXA7QFILQ',
+      secretAccessKey: 'JdsKq4I05yaPCorin/2wV+vO7DSLrH5L1aeL3idX',
+      region: 'sa-east-1'
+    });
+
+    var sns = new AWS.SNS();
+  	console.log('sending push');
+		sns.publish({
+			Message: msg,
+			TopicArn: 'arn:aws:sns:sa-east-1:128489220762:allumy_contato',
+			}, function(err, data) {
+				if (err) {
+					console.log(err.stack);
+					return;
+				}
+
+				console.log('push sent');
+				console.log(data);
+		});
+
+	});
+
+
+
 	$("#clients-logo").owlCarousel({
 		autoPlay: 3000,
 		items : 5,
