@@ -37,12 +37,19 @@ $(document).ready(function(){
 		sns.publish({
 			Message: msg,
 			TopicArn: 'arn:aws:sns:sa-east-1:128489220762:allumy_contato',
-			}, function(err, data) {
+		}, function(err, data) {
+				$.toast({
+						heading: 'Obrigado pelo seu contato',
+						text: 'Entraremos em contato em breve.',
+						position: 'top-right',
+						icon: 'info'
+				})
+				
 				if (err) {
 					console.log(err.stack);
 					return;
 				}
-		});
+			});
 
 	});
 
