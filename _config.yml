@@ -16,11 +16,11 @@ keep_files:
 
 
 # Site settings
-title: Adriano S. Fonseca
-email: new.adriano.fonseca@gmail.com
-description: My name is Adriano da Silva Fonseca > # this means to ignore newlines until "baseurl:"
+title: Allumy
+email: comercial.allumy@gmail.com
+description: Allumy é uma empresa que realiza treinamentos em TI > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://adriano-fonseca.github.io" # the base hostname & protocol for your site
+url: "https://www.allumy.com" # the base hostname & protocol for your site
 
 twitter_username: adriano_fonseca
 github_username: adriano-fonseca
@@ -35,7 +35,7 @@ category_page: '/blog/category/'
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
-url: "https://adriano-fonseca.github.io/" # the base hostname & protocol for your site
+url: "https://www.allumy.com/" # the base hostname & protocol for your site
 baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
