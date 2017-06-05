@@ -44,10 +44,10 @@ p {
   font-size: 15px;
   line-height: 28px;
 }
+
 ul {
   padding: 0;
-  margin: 0;
-  list-style: none;
+  margin: 5;
 }
 a,
 a:active,
@@ -68,6 +68,14 @@ a:active {
   font-style: italic;
   color: #666;
 }
+
+#program-description ul li {
+  text-align: justify; 
+  list-style-type: circle;  
+  margin-left: 10px;
+}
+
+
 /*--
 	Header Start
 --*/
@@ -294,6 +302,9 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 50px;
   color: #7B7B7B;
 }
+#testimonial .counter-box ul {
+  list-style: none;
+} 
 #testimonial .counter-box li {
   width: 50%;
   float: left;
@@ -420,8 +431,30 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 
+#docker-header-small {
+  background: url("../img/docker-banner-sm.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+
+#docker-header-small:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  opacity: 0.8;
+}
+
 #docker-header {
-  background: url("../img/docker-banner.jpg") no-repeat;
+  background: url("../img/docker-banner-big.jpg") no-repeat;
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px;

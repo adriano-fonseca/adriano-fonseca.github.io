@@ -3,8 +3,23 @@ layout: page
 title: Blog
 permalink: /cursos/
 ---
-<!-- Slider Start -->
-<section id="docker-header">
+<!-- Slider Start 
+<div class="row">
+    <div class="col-xs-12 hidden-sm hidden-md hidden-lg">  
+        <img class="img-responsive" src="layouts/layouts.PNG" />    Mobile
+    </div>
+    <div class="hidden-xs col-sm-12 hidden-md hidden-lg">
+        <img class="img-responsive" src="layouts/05.png" />   Tab
+    </div>
+    <div class="hidden-xs hidden-sm col-md-12 hidden-lg">
+        <img class="img-responsive" src="layouts/06.png" />   Desktop
+    </div>
+    <div class="hidden-xs hidden-sm hidden-md col-lg-12">
+        <img class="img-responsive" src="layouts/Layout_100.png" />  Large
+    </div>
+</div>
+-->
+<section id="docker-header-small" class="hidden-md hidden-lg">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -17,19 +32,32 @@ permalink: /cursos/
   </div>
 </section>
 
+<section id="docker-header" class="hidden-xs hidden-sm">
+  <div class="container hidden-xs hidden-sm">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1></h1>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section >
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="container">
           <div class="section-title">
-            <h2>DevOps com Docker: Deploy de Aplicações Distribuídas
-</h2>
+            <h2>DevOps com Docker: Deploy de Aplicações Distribuídas</h2>
           </div>
           <div class="program-paragraph">
             <p>Nos últimos anos...</p>
           </div>
-          <div class="program-description">
+          <div id="program-description">
             <h4><span class="fa fa-calendar"></span> Próxima Turma</h4>
             <hr>
             <p>Nenhuma turma aberta no momento.</p>
@@ -51,14 +79,14 @@ permalink: /cursos/
               <li>Realizar provisionamento de máquinas virtuais em cluster swarm</li>
               <li>Realizar Deploy de Aplicações em um Cluster Local, Amazon Web Service (AWS) e Digital Ocean</li>
               <li>Criar Cluster geograficamente distribuído</li>
-              <li>Criar redes conectando data centers entre diferentes Cloud Providers<li>
+              <li>Criar redes conectando data centers entre diferentes Cloud Providers</li>
             </ul>
             <br>
             <h4><span class="fa fa-th-large"></span> Programa Detalhado</h4>
             <hr>
             <div class="well">
               <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4">
+                <div class="col-xs-9 col-sm-9 col-md-9">
                   <b>Virtualização Utilizando containers</b>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 text-center">
@@ -76,7 +104,7 @@ permalink: /cursos/
             </div>		
             <div class="well">
               <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4">
+                <div class="col-xs-9 col-sm-9 col-md-9">
                   <b>Entendendo o Docker</b>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 text-center">
@@ -94,7 +122,7 @@ permalink: /cursos/
             </div>
             <div class="well">
               <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4">
+                <div class="col-xs-9 col-sm-9 col-md-9">
                   <b>Docker Command Line Interface (CLI)</b>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 text-center">
@@ -105,7 +133,7 @@ permalink: /cursos/
             </div>
             <div class="panel panel-default panel-body">
               <ul>
-                <li>Gerenciamento de  Containers</li>
+                <li>Gerenciamento de Containers</li>
                 <li>Gerenciamento Imagens</li>
                 <li>Gerenciamento de redes Docker Network</li>
                 <li>Gerenciamento de volumes</li>
@@ -116,7 +144,7 @@ permalink: /cursos/
             </div>
             <div class="well">
               <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4">
+                <div class="col-xs-9 col-sm-9 col-md-9">
                   <b>Redes Docker do básico ao avançado</b>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 text-center">
@@ -137,7 +165,7 @@ permalink: /cursos/
             </div>
              <div class="well">
               <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4">
+                <div class="col-xs-9 col-sm-9 col-md-9">
                   <b>Docker Registry</b>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 text-center">
@@ -156,7 +184,7 @@ permalink: /cursos/
             </div>
             <div class="well">
               <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4">
+                <div class="col-xs-9 col-sm-9 col-md-9">
                   <b>Docker Compose - Deploy de aplicações multi-container</b>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 text-center">
@@ -179,7 +207,7 @@ permalink: /cursos/
             </div>
             <div class="well">
               <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4">
+                <div class="col-xs-9 col-sm-9 col-md-9">
                   <b>Docker Machine - Provisionando Maquinas Virtuais</b>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 text-center">
@@ -199,7 +227,7 @@ permalink: /cursos/
             </div>
             <div class="well">
               <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4">
+                <div class="col-xs-9 col-sm-9 col-md-9">
                   <b> Criação de Cluster swarm</b>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 text-center">
@@ -226,7 +254,7 @@ permalink: /cursos/
               <li>Arquitetos de software</li>
               <li>Administradores de sistemas</li>
               <li>Profissionais DevOps</li>
-              <li>Startups<li>
+              <li>Startups</li>
             <br>
             <h4><span class="fa fa-list"></span> Pré-Requisitos</h4>
             <hr>
