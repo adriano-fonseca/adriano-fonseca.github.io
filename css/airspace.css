@@ -48,6 +48,7 @@ p {
 ul {
   padding: 0;
   margin: 5;
+  list-style: none;  
 }
 a,
 a:active,
