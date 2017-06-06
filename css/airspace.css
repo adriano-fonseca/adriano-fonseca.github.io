@@ -252,7 +252,7 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Feature Start
 --*/
-#feature {
+#presenciais {
   background: url("../img/featue-bg.jpg");
   background-position: 50% 94px;
   width: 100%;
@@ -274,16 +274,16 @@ font header .navbar-default .navbar-nav li a:hover {
   backface-visibility: hidden;
   padding: 100px 0;
 }
-#feature h2 {
+#presenciais h2 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
 }
-#feature p {
+#presenciais p {
   color: #8d8f92;
   margin-bottom: 20px;
 }
-#feature .btn-view-works {
+#presenciais .btn-view-works {
   background: #655E7A;
   color: #fff;
   padding: 10px 20px;
@@ -510,7 +510,6 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 6px;
   padding-bottom: 15px;
   margin-top: 0;
-  text-transform: capitalize;
 }
 #global-header .block p {
   font-size: 16px;
